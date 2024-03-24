@@ -5,4 +5,4 @@ start:
 	python -m flask run
 
 test:
-	pylint app.py
+	python -m pylint app.py
